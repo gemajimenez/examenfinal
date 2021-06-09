@@ -1,2 +1,18 @@
 /* @HEADERS */
-/* ********** */
+header{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logotipo{
+    font-family: $tipografiaGeneral;
+    font-size: $fontSizeLogo;
+    font-weight: $fontReagular;
+}
+
+
+
+
+

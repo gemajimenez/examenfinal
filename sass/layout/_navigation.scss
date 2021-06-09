@@ -1,3 +1,60 @@
 /* @NAVEGACIÓN */
 /* ********** */
+// Header
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+// Footer
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .arriba{
+        display: flex;
+        flex-wrap: wrap;
+        .empresa{
+            flex-grow: 1;
+            &__historia, &__quienes{
+                padding: .9375rem;
+                color: $colorLetras;
+            }
+        }
+        .comunidad{
+            flex-grow: 1;
+            &__eventos, &__blog, &__foros{
+                padding: .9375rem;
+                color: $colorLetras;
+            }
+        }
+        .contactar{
+            flex-grow: 2;
+            &__formulario, &__titulo{
+                padding: .9375rem;
+                color: $colorLetras;
+            }
+        }
+    }
+    .abajo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .redes{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5rem;
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            &__input{
+                border: none;
+                padding: .9375rem;
+                margin-bottom: 5px;
+            }
+        }
+    }

@@ -8,14 +8,158 @@
         <link rel="stylesheet" href="./css/main.css" />
     </head>
     <body>
-        <!-- HEADER -->
-        <header>
+        
+ <!-- HEADER -->
+ <header>
+        <!-- Logotipo -->
+        <!-- menu principal -->
+            <nav class="menu">
+                <a href="#" class="menu__comprar">Comprar ya!</a>
+                <a href="#" class="menu__productos">Productos</a>
+                <a href="#" class="menu__servicios">Servicios</a>
+            </nav>
+        <h1 class="logotipo">LOGOTIPO</h3>
         </header>
-        <!-- MAIN -->
         <main>
+            <section class="container1">
+         <figure class="camaraFrente">
+    <picture>
+        <!--Smartphone-->
+        <source srcset=" img/smartphone/camara_frente.jpg 1x,
+        img/smartphone/camara_frente@2x.jpg 2x,
+        img/smartphone/camara_frente@3x.jpg 3x
+        "
+        media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+        />"
+        <!--Desktop-->
+        <source srcset="
+        img/desktop/camara_frente.jpg 1x,
+        img/desktop/camara_frente@2x.jpg 2x
+        "
+        media="(min-width:1200px)"
+        />
+    <!-- Imagen de respaldo -->
+        <img src="" alt="camara vista desde el plano frontal" />
+    </picture>
+    <figcaption>
+        <p class="DescripcionCamara">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a. Tellus integer accumsan aliquet arcu cras tristique. Semper proin porta adipiscing faucibus. Eu scelerisque ornare nunc, venenatis fringilla tincidunt consectetur.
+
+        </p>
+        <a href="#" class="LeerMasBTN">
+            Leer más
+        </a>
+    </figcaption>
+</figure>
+</section>
+<!--Camara desde arriba-->
+<section class="container2">
+<figure class="camaradesdeArriba">
+    <picture>
+        <!--Smartphone-->
+        <source srcset=" 
+        img/smartphone/camara_arriba.jpg 1x,
+        img/smartphone/camara_arriba@2x.jpg 2x,
+        img/smartphone/camara_arriba@3x.jpg 3x
+        "
+        media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+        />
+        <!--Desktop-->
+        <source srcset="
+        img/desktop/camara_arriba.jpg 1x,
+        img/desktop/camara_arriba@2x.jpg 2x
+        "
+        media="(min-width:1200px)"
+        />
+    </picture>
+    <figcaption>
+        <h4 class="">Opción 1</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+        <h4 class="">Opción 2</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+        <h4 class="">Opción 3</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+        <h4 class="">Opción 4</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien ac eget orci lectus a.</p>
+    </figcaption>
+</figure>
+</section>
+
+<!--lentes-->
+<section class="lente">
+    <figure>
+        <picture>
+            <!--Smartphone-->
+            <source srcset=" 
+                    img/smartphone/lente.jpg 1x,
+                    img/smartphone/lente@2x.jpg 2x,
+                    img/smartphone/lente@3x.jpg 3x
+                    "
+                    media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+                    />
+                <!-- Escritorio -->
+                    <source srcset="
+                    img/desktop/lente.jpg    1x,
+                    img/desktop/lente@2x.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                    />
+
+                </picture>
+                <figcaption>
+                    <p class="explicacionLente">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst proin augue habitant nibh condimentum. Mi imperdiet enim aliquam enim proin tellus, fringilla et et. Ultrices lobortis in risus suspendisse eget rhoncus, mauris, lobortis. In tincidunt bibendum at in cursus. Eleifend faucibus turpis quis justo amet maecenas quis. Suscipit nibh sem est at. A lectus euismod metus, pretium id.
+                        Leo ac elementum diam eget massa consectetur. Adipiscing maecenas sit gravida tincidunt posuere aenean semper auctor. Placerat sit quam mattis integer amet cursus. Turpis non magna risus libero, volutpat, et. Tortor elementum magna odio nulla. Id fermentum sapien eu nunc tristique id. Egestas purus venenatis interdum odio est ipsum faucibus maecenas. Ultricies sit erat ac nunc velit. Etiam neque blandit pharetra orci sed amet. Ultricies nec, vulputate suspendisse auctor risus massa vel, viverra pulvinar. Malesuada dignissim feugiat morbi sit dolor urna.
+                        A et ipsum sollicitudin phasellus ultricies. Suscipit et et platea eget in faucibus. Vitae amet, malesuada erat praesent. Enim, lacinia enim placerat mi morbi dui sapien eget. Sapien convallis sed quis amet tellus in sed quam id.
+                    </p>
+                </figcaption>
+    </figure>
+</section>
         </main>
-        <!-- FOOTER -->
-        <footer>
-        </footer>
-    </body>
+        <!--FOOTER-->
+            <footer>
+                <!--ARRIBA-->
+                <section class="arriba">
+                     <!-- Empresa -->
+        <article class="empresa">
+            <h5 class="empresa__titulo">Empresa</h5>
+            <a href="#" class="empresa__quienes">Quienes Somos</a>
+            <a href="#" class="empresa__historia">Historia</a>
+        </article>
+        <!-- Comunidad -->
+        <article class="comunidad">
+            <h5 class="comunidad__titulo">Comunidad</h5>
+            <a href="#" class="comunidad__eventos">Eventos</a>
+            <a href="#" class="comunidad__blog">Blog</a>
+            <a href="#" class="comunidad__foros">Foros</a>
+        </article>
+        <!-- Contactar -->
+        <article class="contactar">
+            <h5 class="contactar__titulo">Contactar</h5>
+            <a href="#" class="contactar__formulario">Formulario</a>
+            <a href="#" class="contactar__tel">+34 666 66 66 66</a>
+        </article>
+
+                </section>
+                <!-- ABAJO -->
+    <section class="abajo">
+        <!-- redes -->
+        <article class="redes">
+            <h5 class="redes__titulo">Redes</h5>
+            <a href="#" class="redes__facebook link-redes">Facebook</a>
+            <a href="#" class="redes__twitter link-redes">Twitter</a>
+            <a href="#" class="redes__instagram link-redes">Instagram</a>
+        </article>
+        <!-- Formulario -->
+        <form action="" class="formulario">
+            <input type="email" name="" id="" placeholder="inserta tu email" class="formulario__input">
+            <button class="formulario__boton">Noticias</button>
+        </form>
+        <!-- copyright -->
+        <h6 class="copyright">Copyright 2021 - Examen Áliad Junio</h6>
+    </section>
+</footer>   
+        </main>      
+</body>
 </html>
+

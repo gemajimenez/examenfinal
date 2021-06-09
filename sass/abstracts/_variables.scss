@@ -1,2 +1,35 @@
 /* @VARIABLES */
 /* ********** */
+//COLORES
+$grisFooter: #C4C4C4;
+$blancoFondo: #F8F6EE;
+$naranjaBTN: #F2624A;
+$marrones: #FFE6D1;
+$colorLetras: #000000;
+$colorBTN: #ffffff;
+
+
+
+// TIPOGRAFÍA
+$tipografia: arial;
+$fontReagular: 500;
+$fontBold: 900;
+
+
+// TAMAÑO TIPOGRAFÍA
+$fontSizeGeneral: 18px;
+$fontSize: 16px;
+$fontSizeLogo: 62,48px;
+
+// TAMAÑOS
+$dispositivos: (
+    smartphone: 360px,
+    ipad: 768px,
+    desktop: 1366px
+);
+
+$breakpoints: (
+    smartphone: 320px,
+    ipad: 768px,
+    desktop: 1100px
+);
